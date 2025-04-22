@@ -3,30 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi Contenido</title>
+  <title>Redirigiendo...</title>
+  
+  <!-- Redirigir después de 3 segundos -->
+  <meta http-equiv="refresh" content="https://zyndra12.github.io/cinetratv-html/cinetratv.html">
+  
   <style>
     body {
       margin: 0;
       padding: 0;
-      font-family: sans-serif;
+      font-family: Arial, sans-serif;
       background: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+    .mensaje {
+      font-size: 20px;
+      color: #333;
     }
   </style>
 </head>
 <body>
 
-  <h1>¡Hola desde GitHub Pages!</h1>
-  <p>Este contenido es parte externa y se adapta automáticamente al tamaño de pantalla.</p>
-
-  <script>
-    function sendHeight() {
-      const height = document.body.scrollHeight;
-      parent.postMessage({ type: 'setHeight', height: height }, '*');
-    }
-
-    window.addEventListener('load', sendHeight);
-    window.addEventListener('resize', sendHeight);
-  </script>
+  <div class="mensaje">
+    <p>Redirigiendo a tu contenido real...</p>
+    <p>Si no eres redirigido automáticamente, haz clic <a href="https://zyndra12.github.io/cinetratv-html/cinetratv.html">aquí</a>.</p>
+  </div>
 
 </body>
 </html>
+
